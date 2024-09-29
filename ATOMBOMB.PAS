@@ -278,7 +278,7 @@ End;
 BEGIN
  If ParamStr(1)='/?'Then Begin
   WriteLn('ATOMBOMB - Cette commande permet de calculer les cons‚quences ',
-          'd''un bombe nucl‚aire en fonction de la distance de l''‚picentre.');
+          'd''une bombe nucl‚aire en fonction de la distance de l''‚picentre.');
   WriteLn;
   WriteLn('Syntaxe : ATOMBOMB [/HAUTEUR:km] bomb ville');
   WriteLn('          ATOMBOMB [/HAUTEUR:km] bomb lat2 latdeg2 latdir2 ');
